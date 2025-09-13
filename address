@@ -1,0 +1,7 @@
+public class AddressPrinter {
+    public static void main(String[] args) {
+System.out.println("IILM");
+System.out.println("knowledge park 2 ");
+System.out.println(" Gn , Uttar Pradesh ");
+    }
+}
