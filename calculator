@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class calculater {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("ENTER THE FIRST NUMBER : ");
+        int num1 = input.nextInt();
+        System.out.println("ENTER THE SECOND NUMBER : ");
+        int num2 = input.nextInt();
+        int sum = num1+num2;
+        int sub = num1-num2;
+        int multi = num1*num2;
+        int divide = num1/num2;
+
+        System.out.println("sum of two number = "+sum);
+        System.out.println("sub of two number is = "+sub);
+        System.out.println("MULTIPLICATION OF TO NUMBER IS = "+ multi);
+        System.out.println("DIVIDE OF TWO NUMBER IS = "+divide);
+
+
+        }
+}
